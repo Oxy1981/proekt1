@@ -1,0 +1,52 @@
+/* ---- Загальні стилі для читабельності ---- */
+body {
+    font-family: 'Georgia', serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #006400; /* Темно-зелений для природи */
+    border-bottom: 2px solid #663300;
+    padding-bottom: 10px;
+}
+p {
+    text-align: justify;
+    margin-bottom: 1.5em; /* Додаємо відступ між абзацами */
+}
+
+/* ---- Спеціальні стилі для обтікання (Головне завдання) ---- */
+
+/* 1. Обтікання зліва */
+.float-left {
+    float: left;            /* Виштовхує елемент вліво */
+    width: 300px;           /* Фіксована ширина зображення */
+    height: 200px;
+    object-fit: cover;      /* Обрізає, щоб вписалося без спотворень */
+    margin-right: 20px;     /* ВАЖЛИВО: Відступ від тексту праворуч */
+    margin-bottom: 10px;
+    border: 3px solid #663300;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* 2. Обтікання справа */
+.float-right {
+    float: right;           /* Виштовхує елемент вправо */
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 20px;      /* ВАЖЛИВО: Відступ від тексту ліворуч */
+    margin-bottom: 10px;
+    border: 3px solid #663300;
+    padding: 5px;
+    background-color: #fff;
+}
